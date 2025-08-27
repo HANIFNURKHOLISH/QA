@@ -53,10 +53,10 @@ Run semua test:
 mvn clean test
 📊 Allure Report
 Generate & buka report:
-allure serve target/allure-results
+allure serve allure-results
 Atau generate static HTML:
-allure generate target/allure-results -o target/allure-report --clean
-Buka di browser: target/allure-report/index.html
+allure generate allure-results -o allure-report --clean
+Buka di browser: allure-report/index.html
 🧪 Test Scenarios
 Positive
 - GET all books → 200
