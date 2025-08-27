@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.BookApiTest" time="8.991" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="maven.user.extensions" value="C:\Users\BTS-Tae Hyung/.m2/extensions.xml"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\hanif-project\QA\New folder\target\test-classes;D:\hanif-project\QA\New folder\target\classes;C:\Users\BTS-Tae Hyung\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\BTS-Tae Hyung\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\BTS-Tae Hyung\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\BTS-Tae Hyung\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\qameta\allure\allure-junit5\2.24.0\allure-junit5-2.24.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="maven.user.toolchains" value="C:\Users\BTS-Tae Hyung/.m2/toolchains.xml"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="user.country.format" value="ID"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.repo.central" value="https://repo.maven.apache.org/maven2"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="session.topDirectory" value="D:\hanif-project\QA\New folder"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\BTS-Tae Hyung\AppData\Local\Temp\surefire10458603744463648560\surefirebooter-20250826193831409_3.jar C:\Users\BTS-Tae Hyung\AppData\Local\Temp\surefire10458603744463648560 2025-08-26T19-38-31_110-jvmRun1 surefire-20250826193831409_1tmp surefire_0-20250826193831409_2tmp"/>
+    <property name="maven.project.settings" value="${session.rootDirectory}/.mvn/settings.xml"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\hanif-project\QA\New folder\target\test-classes;D:\hanif-project\QA\New folder\target\classes;C:\Users\BTS-Tae Hyung\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\BTS-Tae Hyung\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\BTS-Tae Hyung\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\BTS-Tae Hyung\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\qameta\allure\allure-junit5\2.24.0\allure-junit5-2.24.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\BTS-Tae Hyung\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\BTS-Tae Hyung"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot"/>
+    <property name="maven.user.conf" value="C:\Users\BTS-Tae Hyung/.m2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\hanif-project\QA\New folder"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.project.conf" value="${session.rootDirectory}/.mvn"/>
+    <property name="surefire.real.class.path" value="C:\Users\BTS-Tae Hyung\AppData\Local\Temp\surefire10458603744463648560\surefirebooter-20250826193831409_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.3+7"/>
+    <property name="user.name" value="BTS-Tae Hyung"/>
+    <property name="maven.installation.conf" value="C:\Users\BTS-Tae Hyung\Downloads\apache-maven-4.0.0-rc-4-bin\apache-maven-4.0.0-rc-4/conf"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="maven.installation.toolchains" value="C:\Users\BTS-Tae Hyung\Downloads\apache-maven-4.0.0-rc-4-bin\apache-maven-4.0.0-rc-4/conf/toolchains.xml"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.3+7"/>
+    <property name="maven.project.extensions" value="${session.rootDirectory}/.mvn/extensions.xml"/>
+    <property name="localRepository" value="C:\Users\BTS-Tae Hyung\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\BTS-TA~1\AppData\Local\Temp\"/>
+    <property name="maven.installation.extensions" value="C:\Users\BTS-Tae Hyung\Downloads\apache-maven-4.0.0-rc-4-bin\apache-maven-4.0.0-rc-4/conf/extensions.xml"/>
+    <property name="java.version" value="17.0.3"/>
+    <property name="user.dir" value="D:\hanif-project\QA\New folder"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="id"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\BTS-Tae Hyung\Downloads\apache-maven-4.0.0-rc-4-bin\apache-maven-4.0.0-rc-4\bin;C:\Python313\Scripts\;C:\Python313\;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\BTS-Tae Hyung\Documents\hanif\java_console\jdbc\lib\apache-maven-3.8.8\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\BTS-Tae Hyung\scoop\shims;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\BTS-Tae Hyung\AppData\Local\Microsoft\WindowsApps;C:\Users\BTS-Tae Hyung\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\BTS-Tae Hyung\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.3+7"/>
+    <property name="maven.installation.settings" value="C:\Users\BTS-Tae Hyung\Downloads\apache-maven-4.0.0-rc-4-bin\apache-maven-4.0.0-rc-4/conf/settings.xml"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.user.settings" value="C:\Users\BTS-Tae Hyung/.m2/settings.xml"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testGetBooks" classname="com.example.BookApiTest" time="4.452">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddBook" classname="com.example.BookApiTest" time="1.207"/>
+  <testcase name="testUpdateBook" classname="com.example.BookApiTest" time="0.3"/>
+  <testcase name="testDeleteBook" classname="com.example.BookApiTest" time="0.26"/>
+  <testcase name="testGetWrongEndpoint" classname="com.example.BookApiTest" time="0.537"/>
+  <testcase name="testAddBookWithoutTitle" classname="com.example.BookApiTest" time="0.319"/>
+  <testcase name="testAddBookInvalidStatus" classname="com.example.BookApiTest" time="0.237"/>
+  <testcase name="testUpdateBookNotFound" classname="com.example.BookApiTest" time="0.272"/>
+  <testcase name="testUpdateBookEmptyBody" classname="com.example.BookApiTest" time="0.259"/>
+  <testcase name="testDeleteBookNotFound" classname="com.example.BookApiTest" time="0.218"/>
+</testsuite>

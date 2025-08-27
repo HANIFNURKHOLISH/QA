@@ -1,0 +1,7 @@
+
+Multiple Failures (1 failure)
+-- failure 1 --
+[Status Code] 
+expected: 400
+ but was: 404
+at BookApiTest.lambda$testUpdateBookEmptyBody$4(BookApiTest.java:174)

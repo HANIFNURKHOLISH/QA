@@ -1,0 +1,152 @@
+[
+    {
+        "author": "string",
+        "cover": "",
+        "genre": "",
+        "id": 2,
+        "pages": 0,
+        "rating": 0,
+        "status": "unread",
+        "title": "string"
+    },
+    {
+        "author": "string",
+        "cover": "",
+        "genre": "",
+        "id": 4,
+        "pages": 0,
+        "rating": 0,
+        "status": "unread",
+        "title": "string"
+    },
+    {
+        "author": "string",
+        "cover": "",
+        "genre": "",
+        "id": 6,
+        "pages": 0,
+        "rating": 0,
+        "status": "unread",
+        "title": "string"
+    },
+    {
+        "author": "string",
+        "cover": "",
+        "genre": "",
+        "id": 7,
+        "pages": 0,
+        "rating": 0,
+        "status": "unread",
+        "title": "string"
+    },
+    {
+        "author": "Raditiya Dika",
+        "cover": "",
+        "genre": "",
+        "id": 8,
+        "pages": 0,
+        "rating": 0,
+        "status": "unread",
+        "title": "cinta brontosaurus"
+    },
+    {
+        "author": "Raditiya Dika",
+        "cover": "",
+        "genre": "",
+        "id": 9,
+        "pages": 0,
+        "rating": 0,
+        "status": "unread",
+        "title": "cinta brontosaurus"
+    },
+    {
+        "author": "Raditya Dika",
+        "cover": "",
+        "genre": "",
+        "id": 10,
+        "pages": 0,
+        "rating": 0,
+        "status": "unread",
+        "title": "cinta brontosaurus"
+    },
+    {
+        "author": "Raditya Dika",
+        "cover": "",
+        "genre": "",
+        "id": 10,
+        "pages": 0,
+        "rating": 0,
+        "status": "unread",
+        "title": "cinta brontosaurus"
+    },
+    {
+        "author": "Raditiya Dika",
+        "cover": "",
+        "genre": "",
+        "id": 10,
+        "pages": 0,
+        "rating": 0,
+        "status": "unread",
+        "title": "cinta brontosaurus"
+    },
+    {
+        "author": "Anonim",
+        "cover": "",
+        "genre": "",
+        "id": 10,
+        "pages": 0,
+        "rating": 0,
+        "status": "unread",
+        "title": null
+    },
+    {
+        "author": "Anonim",
+        "cover": "",
+        "genre": "",
+        "id": 11,
+        "pages": 0,
+        "rating": 0,
+        "status": "abc",
+        "title": "Book X"
+    },
+    {
+        "author": "Anonim",
+        "cover": "",
+        "genre": "",
+        "id": 12,
+        "pages": 0,
+        "rating": 0,
+        "status": "unread",
+        "title": null
+    },
+    {
+        "author": "Anonim",
+        "cover": "",
+        "genre": "",
+        "id": 13,
+        "pages": 0,
+        "rating": 0,
+        "status": "abc",
+        "title": "Book X"
+    },
+    {
+        "author": "Anonim",
+        "cover": "",
+        "genre": "",
+        "id": 14,
+        "pages": 0,
+        "rating": 0,
+        "status": "unread",
+        "title": null
+    },
+    {
+        "author": "Anonim",
+        "cover": "",
+        "genre": "",
+        "id": 15,
+        "pages": 0,
+        "rating": 0,
+        "status": "abc",
+        "title": "Book X"
+    }
+]

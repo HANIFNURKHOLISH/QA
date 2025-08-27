@@ -1,0 +1,186 @@
+{
+    "info": {
+        "name": "QA TEST with Assertions",
+        "_postman_id": "12345678-1234-5678-1234-567812345678",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "GET BOOKS",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{baseURL}}/api/books",
+                    "host": [
+                        "{{baseURL}}"
+                    ],
+                    "path": [
+                        "api",
+                        "books"
+                    ]
+                }
+            },
+            "response": [],
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            "pm.test(\"Status code is 200\", function () {",
+                            "    pm.response.to.have.status(200);",
+                            "});",
+                            "",
+                            "pm.test(\"Response should be an array\", function () {",
+                            "    pm.expect(pm.response.json()).to.be.an(\"array\");",
+                            "});",
+                            "",
+                            "pm.test(\"Books contain required fields\", function () {",
+                            "    let books = pm.response.json();",
+                            "    if (books.length > 0) {",
+                            "        pm.expect(books[0]).to.have.property(\"id\");",
+                            "        pm.expect(books[0]).to.have.property(\"title\");",
+                            "        pm.expect(books[0]).to.have.property(\"author\");",
+                            "        pm.expect(books[0]).to.have.property(\"status\");",
+                            "    }",
+                            "});"
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ADD BOOKS",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{ \"title\": \"cinta brontosaurus\", \"author\": \"Raditya Dika\", \"status\": \"unread\" }"
+                },
+                "url": {
+                    "raw": "{{baseURL}}/api/books",
+                    "host": [
+                        "{{baseURL}}"
+                    ],
+                    "path": [
+                        "api",
+                        "books"
+                    ]
+                }
+            },
+            "response": [],
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            "pm.test(\"Status code is 201\", function () {",
+                            "    pm.response.to.have.status(201);",
+                            "});",
+                            "",
+                            "pm.test(\"Book created correctly\", function () {",
+                            "    let jsonData = pm.response.json();",
+                            "    pm.expect(jsonData).to.have.property(\"id\");",
+                            "    pm.expect(jsonData.title).to.eql(\"cinta brontosaurus\");",
+                            "    pm.expect(jsonData.status).to.be.oneOf([\"unread\", \"reading\", \"finished\"]);",
+                            "});"
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "UPDATE BOOKS",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{ \"title\": \"cinta brontosaurus\", \"author\": \"Raditya Dika\", \"status\": \"reading\" }"
+                },
+                "url": {
+                    "raw": "{{baseURL}}/api/books/8",
+                    "host": [
+                        "{{baseURL}}"
+                    ],
+                    "path": [
+                        "api",
+                        "books",
+                        "8"
+                    ]
+                }
+            },
+            "response": [],
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            "pm.test(\"Status code is 200\", function () {",
+                            "    pm.response.to.have.status(200);",
+                            "});",
+                            "",
+                            "pm.test(\"Book updated correctly\", function () {",
+                            "    let jsonData = pm.response.json();",
+                            "    pm.expect(jsonData.status).to.eql(\"reading\");",
+                            "});"
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "DELETE BOOKS",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "{{baseURL}}/api/books/5",
+                    "host": [
+                        "{{baseURL}}"
+                    ],
+                    "path": [
+                        "api",
+                        "books",
+                        "5"
+                    ]
+                }
+            },
+            "response": [],
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            "pm.test(\"Status code is 200 or 204\", function () {",
+                            "    pm.expect([200, 204]).to.include(pm.response.code);",
+                            "});"
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ]
+        }
+    ],
+    "variable": [
+        {
+            "key": "baseURL",
+            "value": "book-app-api.cinte.id",
+            "type": "default"
+        }
+    ]
+}

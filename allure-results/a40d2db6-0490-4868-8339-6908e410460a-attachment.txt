@@ -1,0 +1,7 @@
+
+Multiple Failures (1 failure)
+-- failure 1 --
+[Status Code] 
+expected: 400
+ but was: 201
+at BookApiTest.lambda$testAddBookWithoutTitle$1(BookApiTest.java:108)
